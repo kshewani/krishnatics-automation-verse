@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Book, Home, Services } from 'lucide-react';
+import { Book, Home, Phone, Clock } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -181,7 +180,7 @@ const Contact = () => {
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Services className="text-white" size={20} />
+                      <Phone className="text-white" size={20} />
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-white">Get in Touch</h4>
@@ -195,7 +194,7 @@ const Contact = () => {
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Book className="text-white" size={20} />
+                      <Clock className="text-white" size={20} />
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-white">Business Hours</h4>
